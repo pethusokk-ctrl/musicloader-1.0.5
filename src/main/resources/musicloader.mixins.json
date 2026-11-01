@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "com.musicloader.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "PauseScreenMixin",
+    "ScreenDropMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

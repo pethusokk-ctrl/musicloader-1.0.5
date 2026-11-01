@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "musicloader",
+  "version": "${version}",
+  "name": "Music Loader",
+  "description": "Музыкальный плеер в меню паузы (Esc): кружок с иконкой песни, стрелки влево/вправо, WAV и MP3, повтор, настройки звука. Creator: caat_coooll",
+  "authors": ["caat_coooll"],
+  "contact": {
+    "homepage": "https://discord.gg/w4GYP92ts"
+  },
+  "license": "MIT",
+  "icon": "assets/musicloader/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.musicloader.MusicLoaderClient"]
+  },
+  "mixins": ["musicloader.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
